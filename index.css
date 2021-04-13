@@ -16,8 +16,13 @@ h1 {
     color: white;
 }
 
-h2 {
+h4 {
     color: white;
+}
+
+button {
+    background-color: transparent;
+    border-color: white;
 }
 
 .inner-header {
@@ -28,7 +33,6 @@ h2 {
 	justify-content: space-around;
     align-items: center;
     position: relative;
-    right: 150px;
   }
   
 .logo {
@@ -57,7 +61,7 @@ li {
   }
 
 #rightnav {
-      left: 65%;
+      left: 48%;
   }
 
 /* #hamburger {
@@ -87,7 +91,25 @@ li {
     right: 15%;
     display: flex;
     flex-direction: column;
+    max-width: 25%;
+    font: 14px/28px D-DIN-Bold,Arial,Verdana,sans-serif;
 }
+
+.inner-right-bottom > h1{
+    font-size: 30px;
+}
+
+#replay {
+    font: 14px/50px D-DIN-Bold,Arial,Verdana,sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    color: white;
+
+}
+
+
+
 
 
   
